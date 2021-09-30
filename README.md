@@ -8,3 +8,6 @@ spread, the smaller the spread, the more accurate the dataset).
 * Bootstrap. For example randomly select data with replacement from the dataset for 10000 times, so that we can get 10000 new datasets. Consider median as the resampling statistic, get median of each bootstrap dataset and
 calculate the standard error from these 10000 median $`\sqrt{(Σ(x_i - \mu(median))^2/(n-1))}/\sqrt{n}`$.
 While if the sample is drawn from a normal distribution with large sample size, $`se(median) = 1.2533*se(mean)`$.
+
+### 3. Two-sample t-test vs. paired t-test, which one has higher statistical power?
+* Depend on the degree of freedom. 
