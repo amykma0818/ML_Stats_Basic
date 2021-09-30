@@ -10,4 +10,4 @@ calculate the standard error from these 10000 median $`\sqrt{(Σ(x_i - \mu(media
 While if the sample is drawn from a normal distribution with large sample size, $`se(median) = 1.2533*se(mean)`$.
 
 ### 3. Two-sample t-test vs. paired t-test, which one has higher statistical power?
-* Depend on the degree of freedom. 
+* Depend on the degree of freedom. Degrees of freedom (DOF) equals your sample size minus the number of parameters you need to calculate during an analysis. Higher DOF generally mean larger sample sizes or fewer unknown parameters, a higher DOF means more power to reject a false null hypothesis and find a significant result.
