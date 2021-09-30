@@ -11,4 +11,4 @@ While if the sample is drawn from a normal distribution with large sample size, 
 
 ### 3. Two-sample t-test vs. paired t-test, which one has higher statistical power?
 * Depend on the degree of freedom. Degrees of freedom (DOF) equals your sample size minus the number of parameters you need to calculate during an analysis. Higher DOF generally mean larger sample sizes or fewer unknown parameters, a higher DOF means more power to reject a false null hypothesis and find a significant result.
-* The DOF of (unpaired) two-sample t-test is **$`n_1+n_2-2`$**, and the DOF of paired t-test (equivalent to one-sample t-test) is **$n-1$**.
+* The DOF of (unpaired) two-sample t-test is ($`n_1+n_2-2`$), and the DOF of paired t-test (equivalent to one-sample t-test) is $(`n-1`)$.
