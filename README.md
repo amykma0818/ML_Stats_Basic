@@ -17,7 +17,7 @@ While if the sample is drawn from a normal distribution with large sample size, 
 ### 4. Explain the differences between two statistical tests called t-tests and z-tests. 
 In your explanation, create two examples of when you would use the tests, one scenario for t-tests and one scenario for z-tests. This will help highlight real life situations when one test would be utilized over the other.
 #### Solution:
-Both t-tests and z-tests are forms of hypothesis testing. In general, choosing which one to use between the two (assuming population is normally distributed) is more dependent on the sample size as well as whether or not we're able to obtain the population's standard deviation. Both t-scores and z-scores will have an associated p-value.
+Both t-tests and z-tests are forms of hypothesis testing. In general, choosing which one to use between the two (assuming population is normally distributed) is more dependent on the sample size as well as whether or not we're able to obtain the population's standard deviation. Both t-scores and z-scores will have an associated p-value. z-test is used when sample size is large, or the population variance is known. t-test is used when sample size is small and population variance is unknown.
 
 A z-test is used for testing the mean of a population vs. a constant, or comparing the means of two populations, with large (n ≥ 30) samples whether you know the population standard deviation or not. It is also used for testing the proportion of some characteristic versus a standard proportion, or comparing the proportions of two populations.
 
