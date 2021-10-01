@@ -1,4 +1,4 @@
-# StatsBasic
+# ML & Stats Basic
 ### 1. What is standard error of mean, how to compute it, and how to interpret it?
 * Standard error is the standard deviation of the sampling distribution of the mean, $`s = σ/\sqrt{n}`$. It refers to the standard deviation of the distribution of sample means
 taken from a population. The smaller the standard error, the more representative the sample will be of the overall population (a measurement for the
@@ -15,3 +15,5 @@ While if the sample is drawn from a normal distribution with large sample size, 
 * The DOF of paired t-test, which is equivalent to one-sample t-test, is ($`n-1`$).
 
 ### 4. What's the difference between t-test and z-test?
+
+### 5. What's supervised algorithm? 
