@@ -17,3 +17,6 @@ While if the sample is drawn from a normal distribution with large sample size, 
 ### 4. What's the difference between t-test and z-test?
 
 ### 5. What's supervised algorithm? 
+* Supervised learning is the use of examples of known correct answers to train the network. A process in which data and its one-to-one correspondence are known, a prediction model is trained, and input data is mapped to a label.
+* Common application scenarios for supervised learning such as classification and regression.
+* Common supervised machine learning algorithms include Support Vector Machine (SVM), Naive Bayes, Linear Regression, Logistic Regression, K-Nearest Neighborhood (KNN), Decision Tree (including Random Forest and AdaBoost), and Linear Discriminant Analysis (LDA). Deep Learning is also presented in the form of supervised learning.
