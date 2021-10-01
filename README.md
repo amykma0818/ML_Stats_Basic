@@ -16,7 +16,7 @@ While if the sample is drawn from a normal distribution with large sample size, 
 
 ### 4. What's the difference between t-test and z-test?
 
-### 5. What is Analysis of Variance (ANOVA)?
+### 5. What is Analysis of Variance (ANOVA)? What's the difference between F-test and ANOVA?
 
 ### 6. What's supervised algorithm? 
 * Supervised learning is the use of examples of known correct answers to train the network. A process in which data and its one-to-one correspondence are known, a prediction model is trained, and input data is mapped to a label.
