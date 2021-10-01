@@ -14,18 +14,19 @@ While if the sample is drawn from a normal distribution with large sample size, 
 * The DOF of (unpaired) two-sample t-test is ($`n_1+n_2-2`$)
 * The DOF of paired t-test, which is equivalent to one-sample t-test, is ($`n-1`$).
 
-### 4. Explain the differences between two statistical tests called t-tests and z-tests. In your explanation, create two examples of when you would use the tests, one scenario for t-tests and one scenario for z-tests. This will help highlight real life situations when one test would be utilized over the other.
+### 4. Explain the differences between two statistical tests called t-tests and z-tests. 
+In your explanation, create two examples of when you would use the tests, one scenario for t-tests and one scenario for z-tests. This will help highlight real life situations when one test would be utilized over the other.
 #### Solution:
 Both t-tests and z-tests are forms of hypothesis testing. In general, choosing which one to use between the two (assuming population is normally distributed) is more dependent on the sample size as well as whether or not we're able to obtain the population's standard deviation. Both t-scores and z-scores will have an associated p-value.
 
-A z-test is used for testing the mean of a population versus a standard, or comparing the means of two populations, with large (n ≥ 30) samples whether you know the population standard deviation or not. It is also used for testing the proportion of some characteristic versus a standard proportion, or comparing the proportions of two populations.
+A z-test is used for testing the mean of a population vs. a constant, or comparing the means of two populations, with large (n ≥ 30) samples whether you know the population standard deviation or not. It is also used for testing the proportion of some characteristic versus a standard proportion, or comparing the proportions of two populations.
 
 Examples:
 
 * Comparing the average engineering salaries of men versus women.
 * Comparing the fraction defectives from 2 production lines.
 
-A t-test is used for testing the mean of one population against a standard or comparing the means of two populations if you do not know the populations’ standard deviation and when you have a limited sample (n < 30). If you know the populations’ standard deviation and the sample size is 30 or above, you may use a z-test.
+A t-test is used for testing the mean of one population against a constant or comparing the means of two populations if you do not know the populations’ standard deviation and when you have a limited sample (n < 30). If you know the populations’ standard deviation and the sample size is 30 or above, you may use a z-test.
 
 Examples:
 * Measuring the average diameter of shafts from a certain machine when you have a small sample.
