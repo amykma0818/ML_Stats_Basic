@@ -42,6 +42,9 @@ Examples:
 ### 7. In statistical hypothesis testing, explain the difference between Type I and Type II error.
 * Type I error is defined as 'the rejection of a true null hypothesis (also known as a "false positive" finding)', whereas Type II error is defined as 'failing to reject a false null hypothesis (also known as a "false negative" finding)'. In other words, Type I error is claiming something has happened when it has not, while Type II error is claiming nothing has happened when it has.
 * For example, a model telling someone they have cancer when they do not is Type I error, while a model telling someone they do not have cancer when they in fact do is Type II error. You should also be prepared to think through when you might want to bias your model towards one type of error vs. the other.
+### 8. What is Naive Bayes' theorem, and why is it considered 'naive'? Why is it often used in practical applications rather than trying to implement an algorithm based on Bayes' Theorem (non-naive)?
+* Naive Bayes is a machine learning implementation of Bayes' Theorem. In short, Bayes' Theorem is an algorithm that describes the probability of an event, based on prior knowledge of conditions that might be related to the event. In other words, it describes how to update the probability of an event given new evidence.
+* Naive Bayes is 'naive' because while it uses conditional probability to make classifications, the algorithm assumes that all features of a class are independent. This is considered naive because, in reality, it is not often the case. Naive Bayes is often used over bayesian classifiers since the latter is very difficult to compute. Naive Bayes offers a good approximation that runs much quicker, is easier to follow, and works just fine for many problems.
 
 
 
