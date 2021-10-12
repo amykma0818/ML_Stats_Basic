@@ -46,17 +46,23 @@ Examples:
 * Naive Bayes is a machine learning implementation of Bayes' Theorem. In short, Bayes' Theorem is an algorithm that describes the probability of an event, based on prior knowledge of conditions that might be related to the event. In other words, it describes how to update the probability of an event given new evidence.
 * Naive Bayes is 'naive' because while it uses conditional probability to make classifications, the algorithm assumes that all features of a class are independent. This is considered naive because, in reality, it is not often the case. Naive Bayes is often used over bayesian classifiers since the latter is very difficult to compute. Naive Bayes offers a good approximation that runs much quicker, is easier to follow, and works just fine for many problems.
 
-### 9. [The Two-Sample t-Test] (https://www.jmp.com/en_ch/statistics-knowledge-portal/t-test/two-sample-t-test.html)
+### 9. [The Two-Sample t-Test](https://www.jmp.com/en_ch/statistics-knowledge-portal/t-test/two-sample-t-test.html)
 * What is the two-sample t-test?
+
 The two-sample t-test (also known as the independent samples t-test) is a method used to test whether the unknown population means of two groups are equal or not.
 * Is this the same as an A/B test?
+
 Yes, a two-sample t-test is used to analyze the results from A/B tests.
 * When can I use the test?
+
 You can use the test when your data values are independent, are randomly sampled from two normal populations and the two independent groups have equal variances.
 * What if I have more than two groups?
+
 Use a multiple comparison method. Analysis of variance (ANOVA) is one such method. Other multiple comparison methods include the Tukey-Kramer test of all pairwise differences, analysis of means (ANOM) to compare group means to the overall mean or Dunnett’s test to compare each group mean to a control mean.
 * What if the variances for my two groups are not equal?
+
 You can still use the two-sample t-test. You use a different estimate of the standard deviation. 
 * What if my data isn’t nearly normally distributed?
+
 If your sample sizes are very small, you might not be able to test for normality. You might need to rely on your understanding of the data. When you cannot safely assume normality, you can perform a nonparametric test that doesn’t assume normality.
 
