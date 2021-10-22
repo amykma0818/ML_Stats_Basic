@@ -66,3 +66,11 @@ You can still use the two-sample t-test. You use a different estimate of the sta
 
 If your sample sizes are very small, you might not be able to test for normality. You might need to rely on your understanding of the data. When you cannot safely assume normality, you can perform a nonparametric test that doesn’t assume normality.
 
+### 10. In AB testing/two-sample t-test, how to determine whether the variances in treatment and control groups are equal or not?
+
+If the variances for two samples are obviously different, are they statistically different?
+To interpret this, you will want to pay attention to the F Critical one-tail value. If your F value is less than the F Critical value, your variances are statistically unequal. You can also check the p-value, which is essentially the probability that the results are random chance. If the p-value is low enough, then it's reasonable to assume unequal variances.
+
+
+
+
